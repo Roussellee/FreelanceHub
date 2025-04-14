@@ -16,7 +16,7 @@ FreelanceHub - это платформа, которая предоставля�
 - [Требования](#требования)
 - [Установка](#установка)
 - [Диаграммы проекта](#диаграммы-проекта)
-- [SEO-оптимизация](#SEO-оптимизация)
+- [SEO-оптимизация](#seo-оптимизация)
 
 ## Структура каталога
 
@@ -89,11 +89,11 @@ return [
 ### ER-диаграмма
 [![Er-Diagramm.png](https://i.postimg.cc/ydfTggPv/Er-Diagramm.png)](https://postimg.cc/PpwD0q0w)
 
-##SEO-оптимизация
-###Оптимизация мета-тегов
+## SEO-оптимизация
+### Оптимизация мета-тегов
 Оптимизация заголовков, описания и ключевых слов происходит с помощью: Оптимизация заголовков - `$this->title = $перменная->title;` или `$this->title = '';`, оптимизация описания - `$this->registerMetaTag(['name' => 'description', 'content' => $this->title]);`, оптимизация ключевых слов - `$this->registerMetaTag(['name' => 'keywords', 'content' => $this->title]);`
 
-###Структура URL
+### Структура URL
 ```
 'urlManager' => [
             'enablePrettyUrl' => true,
