@@ -1,0 +1,20 @@
+User -agent: *
+
+# Запретить индексацию папок, которые не должны быть доступны
+Disallow: /assets/
+Disallow: /web/assets/
+Disallow: /web/css/
+Disallow: /web/fonts/
+Disallow: /web/uploads/
+Disallow: /models/
+Disallow: /controllers/
+Disallow: /views/
+Disallow: /config/
+Disallow: /vendor/
+Disallow: /migrations/
+Disallow: /mail/
+Disallow: /vagrant/
+Disallow: /web/robots.txt  # Запретить доступ к самому файлу robots.txt
+
+# Указать путь к файлу Sitemap
+Sitemap: https://example.com/sitemap.xml
